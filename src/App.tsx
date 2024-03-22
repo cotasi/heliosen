@@ -9,6 +9,7 @@ import Road from './Company/Road';
 import Dtwin from './Business/Digitaltwin';
 
 import Jobposition from './Employee/Jobposition';
+import Detail from './Employee/Detail';
 
 import { Route,Routes } from 'react-router-dom';
 
@@ -39,6 +40,10 @@ const App = () => {
         <Route path="/business/geoiot" element={<></>}></Route>
 
         <Route path="/employee/jobposition" element={<Jobposition img={'https://www.heliosen.co.kr/static/media/DitapRecruit.677a0971a0befd6d6b67.png'} nums={1} />}></Route>
+        <Route path="/employee/jobposition/1" element={<Detail pastnum={1} img={'https://www.heliosen.co.kr/static/media/DitapRecruit.677a0971a0befd6d6b67.png'} num={0}/>}></Route>
+        <Route path="/employee/jobposition/2" element={<Detail pastnum={1} img={'https://www.heliosen.co.kr/static/media/DitapRecruit.677a0971a0befd6d6b67.png'} num={1}/>}></Route>
+        <Route path="/employee/jobposition/3" element={<Detail pastnum={1} img={'https://www.heliosen.co.kr/static/media/DitapRecruit.677a0971a0befd6d6b67.png'} num={2}/>}></Route>
+        <Route path="/employee/jobposition/4" element={<Detail pastnum={1} img={'https://www.heliosen.co.kr/static/media/DitapRecruit.677a0971a0befd6d6b67.png'} num={3}/>}></Route>
       </Routes>
     </>
   )

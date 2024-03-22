@@ -158,6 +158,7 @@ export const Menupart = styled.div`
             left: 0;
             background-color: #f5f7f9;
             transform: translateY(50%);
+            z-index: 5;
             ul li a {
                 padding: 40px;
                 display: block;
@@ -309,6 +310,8 @@ export const Tables = styled.table`
 `;
 
 export const Conpart = styled.div`
+    position: relative;
+    z-index: 1;
     background-color: #fff;
     padding: 150px 5% 0;
     > h2 {

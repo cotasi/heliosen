@@ -62,3 +62,40 @@
         }
     }
 }
+
+.work,.essential,.essentials,.goods {
+    padding-bottom: 70px;
+    h2 {
+        font-size: 30px;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    > span {
+        display: block;
+        line-height: 1.8;
+        span {
+            display: block;
+        }
+    }
+}
+
+.go {
+    position: absolute;
+    top: calc(150px + 200px);
+    right: 5%;
+    h2 {
+        font-size: 25px;
+        font-weight: 800;
+        text-align: left;
+        width: 300px;
+        padding-bottom: 30px;
+    }
+    a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+    }
+}

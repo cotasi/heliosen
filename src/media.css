@@ -254,6 +254,19 @@
         font-size: 14px !important;
     }
 
+    .work h2,
+    .essential h2,
+    .essentials h2,
+    .goods h2 {
+        font-size: 20px !important;
+    }
+    .go {
+        position: static !important;
+    }
+    .go h2 {
+        font-size: 20px !important;
+    }
+
 }
 
 @media (max-width: 768px) {

@@ -83,6 +83,9 @@
                     transition: all .4s;
                     a {
                         padding-right: 30px;
+                        &:hover {
+                            text-decoration: underline;
+                        }
                     }
                 }
                 &:hover {

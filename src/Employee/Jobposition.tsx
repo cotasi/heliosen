@@ -47,7 +47,7 @@ const Jobposition: React.FC<imgs> = ({img,nums}) => {
                     {
                         Recruit.map((rec,idx)=>(
                             <div>
-                                <Link to={`/recruit/jobposition/${idx+1}`} className="justify-between items-center">
+                                <Link to={`/employee/jobposition/${idx+1}`} className="justify-between items-center">
                                 <div className="left flex items-center">
                                     <h2>{rec.type}</h2>
                                     <div className="content">
