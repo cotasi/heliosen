@@ -1,0 +1,127 @@
+[
+    {
+        "main_id": 1,
+        "main_menu": "회사 소개",
+        "main_link": "/company",
+        "details": [
+            {
+                "sub_id": 1,
+                "main_id": 1,
+                "sub_menu": "회사 소개",
+                "sub_link": "/company/company"
+            },
+            {
+                "sub_id": 2,
+                "main_id": 1,
+                "sub_menu": "수행 실적",
+                "sub_link": "/company/performance"
+            },
+            {
+                "sub_id": 3,
+                "main_id": 1,
+                "sub_menu": "오시는 길",
+                "sub_link": "/company/howtovisit"
+            }
+        ]
+    },
+    {
+        "main_id": 2,
+        "main_menu": "사업 분야",
+        "main_link": "/business",
+        "details": [
+            {
+                "sub_id": 5,
+                "main_id": 2,
+                "sub_menu": "Digital Twin",
+                "sub_link": "/business/dtwin"
+            },
+            {
+                "sub_id": 6,
+                "main_id": 2,
+                "sub_menu": "Geo-IOT",
+                "sub_link": "/business/geoiot"
+            },
+            {
+                "sub_id": 7,
+                "main_id": 2,
+                "sub_menu": "GIS",
+                "sub_link": "/business/gis"
+            },
+            {
+                "sub_id": 8,
+                "main_id": 2,
+                "sub_menu": "AI",
+                "sub_link": "/business/ai"
+            }
+        ]
+    },
+    {
+        "main_id": 3,
+        "main_menu": "솔루션",
+        "main_link": "/solution",
+        "details": [
+            {
+                "sub_id": 9,
+                "main_id": 3,
+                "sub_menu": "DiTAP",
+                "sub_link": "/solution/ditap"
+            },
+            {
+                "sub_id": 10,
+                "main_id": 3,
+                "sub_menu": "DiTAP JS",
+                "sub_link": "/solution/ditapjs"
+            },
+            {
+                "sub_id": 11,
+                "main_id": 3,
+                "sub_menu": "DiTAP for Unity",
+                "sub_link": "/solution/unity"
+            },
+            {
+                "sub_id": 12,
+                "main_id": 3,
+                "sub_menu": "DiTAP Builder",
+                "sub_link": "/solution/builder"
+            }
+        ]
+    },
+    {
+        "main_id": 4,
+        "main_menu": "홍보 센터",
+        "main_link": "/promotion",
+        "details": [
+            {
+                "sub_id": 13,
+                "main_id": 4,
+                "sub_menu": "새 소식",
+                "sub_link": "/promotion/news"
+            },
+            {
+                "sub_id": 14,
+                "main_id": 4,
+                "sub_menu": "공지사항",
+                "sub_link": "/promotion/notice"
+            }
+        ]
+    },
+    {
+        "main_id": 5,
+        "main_menu": "인재 채용",
+        "main_link": "/employee",
+        "details": [
+            {
+                "sub_id": 15,
+                "main_id": 5,
+                "sub_menu": "인재 채용",
+                "sub_link": "/employee/employee"
+            },
+            {
+                "sub_id": 16,
+                "main_id": 5,
+                "sub_menu": "채용 공고",
+                "sub_link": "employee/jobposition"
+            }
+        ]
+    }
+]

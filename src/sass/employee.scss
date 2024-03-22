@@ -1,0 +1,64 @@
+.jobpo {
+    .titpart {
+        width: 100%;
+        height: 500px;
+        background-color: black;
+    }
+    .mainpart {
+        background-color: #fff;
+        height: 1000px;
+        padding: 200px 5% 0;
+        > h2 {
+            font-size: 50px;
+            font-weight: 800;
+            padding-bottom: 15px;
+        }
+        > p {
+            padding-bottom: 15px;
+        }
+        > #data {
+            border-top: 1px solid #000;
+            > div {
+                border-bottom: 1px solid rgba(0,0,0,.5);
+                > a {
+                    &:hover {
+                        background-color:aliceblue;
+                    }
+                    display: flex;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    padding-left: 30px;
+                    padding-right: 50px;
+                    .left {
+                        > h2 {
+                            width: 120px;
+                            text-align: center;
+                            font-weight: 800;
+                            font-size: 25px;
+                        }
+                        .content {
+                            > h2 {
+                                font-size: 25px;
+                                font-weight: 800;
+                                padding-bottom: 10px;
+                            }
+                            > ul {
+                                li {
+                                    font-size: 14px;
+                                    padding-right: 30px;
+                                    border-right: 1px solid rgba(0,0,0,.4);
+                                }
+                                li:not(:first-child) {
+                                    padding-left: 30px;
+                                }
+                                li:last-child {
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

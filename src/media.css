@@ -1,0 +1,388 @@
+@media (max-width: 1536px) {
+    .wraps .sum p {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1280px) {
+    body {
+        overflow: visible !important;
+        overflow-x: hidden;
+    }
+    .pagetwo {
+        flex-direction: column;
+        padding-top: 20%;
+        padding-left: 7%;
+        align-items: start !important;
+    }
+    #indicator {
+        display: none !important;
+    }
+    .business {
+        margin-left: 0 !important;
+        width: 80% !important;
+    }
+    .business #business {
+        display: flex !important;
+    }
+    .business #business .slide {
+        width: 23%;
+        margin-right: 1%;
+    }
+    .business .swiper {
+        display: none !important;
+    }
+    .summary h2 {
+        font-size: 35px !important;
+        padding-bottom: 30px !important;
+        line-height: 1.2 !important;
+    }
+
+    .summary p {
+        width: 230px;
+        padding-bottom: 30px !important;
+    }
+
+    .summary button {
+        margin-bottom: 30px;
+    }
+    .wraps {
+        flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .wraps .menu {
+        width: 100% !important;
+        margin-top: 15px;
+    }
+    .wraps .menu a span:first-child {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .wraps .menu a span:last-child {
+        width: 100% !important;
+        padding-bottom: 10px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pagetwo {
+        height: calc(100vh + 500px) !important;
+    }
+    #business {
+        flex-wrap: wrap;
+    }
+    #business .slide {
+        width: 48% !important;
+        margin-bottom: 1%;
+    }
+    .slide li .textwrap span:first-child {
+        font-size: 30px !important;
+    }
+    .slide li .textwrap span:nth-child(2) {
+        font-size: 60px !important;
+    }
+
+    .slide li .textwrap span:nth-child(3) {
+        font-size: 15px !important;
+    }
+    .company .titpart .text {
+        padding-bottom: 5% !important;
+    }
+    .company .titpart .text h2 {
+        font-size: 30px !important;
+    }
+    .company .titpart .text p {
+        font-size: 16px !important;
+    }
+    .company .titpart .text p br {
+        display: none !important;
+    }
+
+    .company .titpart .menus {
+        transform: translateY(100%) !important;
+        width: 100%;
+    }
+    .company .titpart .menus ul li a {
+        padding: 30px 40px !important;
+    }
+    .company .titpart .menus ul li a:before {
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+    .company .realpart .welcome {
+        position: relative;
+    }
+    .company .realpart .welcome .first h2 {
+        position: absolute;
+        top: -130%;
+    }
+    .company .realpart .welcome .first h3 {
+        position: absolute;
+        font-size: 18px !important;
+        bottom: 40px !important;
+    }
+    .company .realpart .welcome .second h2 {
+        font-size: 18px !important;
+    }
+    .company .realpart .welcome {
+        justify-content: flex-start !important;
+    }
+    .company .realpart .imgsection {
+        max-width: 90% !important;
+        margin: 0 auto;
+        position: relative;
+    }
+    .company .realpart .outlining figure {
+        position: relative;
+    }
+    .company .realpart .outlining figure:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,.4);
+        z-index: 1;
+    }
+    .company .realpart .outlining {
+        flex-direction: column;
+        max-height: unset !important;
+        position: relative;
+    }
+    .company .realpart .outlining figure {
+        width: 100% !important;
+        height: 500px;
+    }
+    .company .realpart .outlining .outlines h2 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        z-index: 5;
+    }   
+    .company .realpart .outlining .outlines p {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #fff;
+        z-index: 5;
+    }
+    .company .realpart .outlining .outlines {
+        width: 100% !important;
+    }
+    .company .realpart .outlining .outlines table {
+        margin-top: 20px;
+    }
+    .company .realpart .outlining .outlines table tr:first-child,
+    .company .realpart .outlining .outlines table tr:nth-child(2) {
+        border-top: none !important;
+    }
+    .company .realpart .outlining .outlines table tr {
+        flex-direction: column;
+    }
+    .road .conpart > h2 {
+        font-size: 30px !important;
+    }
+    .road .conpart > h3 {
+        font-size: 16px !important;
+    }
+    .road .conpart .info > h2 {
+        width: 50% !important;
+    }
+    .road .conpart .info .infodetail {
+        flex-direction: column;
+    }
+    .road .conpart .info .infodetail > div > h2 {
+        font-size: 25px !important;   
+    }
+    .road .conpart .info .infodetail > div > h3 {
+        font-size: 16px !important;
+    }
+    .road .conpart .info .infodetail .add {
+        width: 100% !important;
+    }
+    .road .conpart .info .infodetail .phone {
+        width: 100% !important;
+        padding-top: 30px;
+    }
+    .technology {
+        flex-direction: column;
+        > div > span {
+            font-size: 20px !important;
+            width: 100px;
+        }
+    }
+    .imgservice {
+        h2 {
+            font-size: 30px !important;
+        }
+    }
+    .mainpart > h2 {
+        font-size: 30px !important;
+    }
+    .mainpart > #data > div > a {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        align-items: start !important;
+    }
+    .mainpart > #data > div > a > .left {
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .mainpart > #data > div > a > .left > h2 {
+        font-size: 14px !important;
+        text-align: left !important;
+        font-weight: 500 !important;
+
+    }
+    .mainpart > #data > div > a > .left > .content > ul {
+        display: none !important;
+    }
+    .mainpart > #data > div > a > .left > .content h2 {
+        font-size: 16px !important;
+        padding: 0 !important;
+        font-weight: 500 !important;
+    }
+    .mainpart > #data > div > a > .right {
+        font-size: 14px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .head > div {
+        max-width: 90% !important;
+    }
+    .summary h2 {
+        font-size: 30px !important;
+    }
+    .summary p {
+        font-size: 15px !important;
+        width: auto !important;
+    }
+    .company .realpart .imgsection .text h2 {
+        font-size: 30px !important;
+    }
+    .company .realpart .imgsection .text p {
+        font-size: 15px !important;
+    }
+
+}
+
+@media (max-width: 656px) {
+    .slide li .textwrap span:first-child {
+        font-size: 20px !important;
+    }
+    .slide li .textwrap span:nth-child(2) {
+        font-size: 45px !important;
+    }
+    .slide li .textwrap span:nth-child(3) {
+        font-size: 12px !important;
+    }
+    .wraps .sum h2 {
+        font-size: 30px !important;
+    }
+    .wraps .menu a span:last-child {
+        font-size: 14px;
+    }
+    #page4 .wrapping > h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .company ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .company .menus ul li {
+        width: 100% !important;;
+    }
+    .company .titpart .menus ul li a {
+        padding: 24px 20px !important;
+    }
+    .company .menus ul li a:after {
+        content: none !important;
+    }
+    .company .realpart .welcome {
+        flex-direction: column;
+    }
+    .company .realpart .welcome .first h2 {
+        position: static !important;
+    }
+    .road .conpart .info {
+        flex-direction: column;
+    }
+    .road .conpart .info > h2 {
+        font-size: 16px !important;
+        padding-bottom: 20px;
+    }
+    .road .conpart .info .infodetail {
+        width: 100% !important;
+    }
+    .road .conpart .info .infodetail > div {
+        padding-bottom: 10px !important;
+    }
+    .road .conpart .info .infodetail > div > h2 {
+        font-size: 16px !important;
+    }
+    .road .conpart .info .infodetail > div > h3 {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .slide li .textwrap {
+        width: 100%;
+    }
+}
+@media (max-width: 440px) {
+    .manual {
+        padding-top: 320px !important;
+    }
+    .manual h2 {
+        font-size: 30px !important;
+    }
+    .road .conpart {
+        padding-top: 320px !important;
+    }
+}
+@media (max-width: 430px) {
+    .company .realpart .outlining .outlines h2 {
+        font-size: 30px !important;
+    }
+    .company .realpart .outlining .outlines p {
+        font-size: 15px !important;
+        transform: translateX(0);
+        left: 0;
+        right: 0;
+        top: 15% !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .company .realpart .outlining .outlines .certifier {
+        flex-direction: column;
+    }
+    .company .realpart .outlining .outlines .certifier > div {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    #data > div > a {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 300px) {
+    .imgservice h2 {
+        font-size: 20px !important;
+    }
+}
