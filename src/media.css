@@ -219,10 +219,8 @@
             width: 100px;
         }
     }
-    .imgservice {
-        h2 {
-            font-size: 30px !important;
-        }
+    .imgservice h2{ 
+        font-size: 30px !important;
     }
     .mainpart > h2 {
         font-size: 30px !important;
