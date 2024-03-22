@@ -7,5 +7,9 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  experimental: {
+    // CSS 중첩 활성화
+    applyComplexClasses: true,
+  },
 }
 
